@@ -1,0 +1,133 @@
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.profile{
+    height: 570px;
+    width: 1050px;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+.left-navbar{
+  height: 550px;
+  width: 200px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(100, 100, 255),rgb(127, 32, 251));
+}
+.left-navbar ul{
+  margin-top: 170px;
+  margin-left: 50px;
+  list-style: none;
+}
+.left-navbar ul a{
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+  display: flex;
+}
+.details{
+  height: 550px;
+  width: 850px;
+  /* background-color: rgb(200, 200, 250); */
+}
+.top-nav{
+  height: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  padding: 20px;
+}
+.top-nav button{
+  margin-left: 600px;
+  color: black;
+  background: transparent;
+  border: none;
+  font-weight: bolder;
+}
+.user-details{
+  display: flex;
+}
+.user-details-left{
+  height: 480px;
+  width: 300px;
+}
+.user-details-left ul{
+  list-style: none;
+}
+.user-details-left ul li{
+  list-style: none;
+  display: flex;
+  padding-top: 3px;
+}
+.user-details-right{
+  height: 480px;
+  width: 550px;
+  border-left: 1px solid rgb(163, 163, 163);
+}
+.user-details-right ul{
+  list-style: none;
+}
+.user-details-right ul li{
+  display: flex;
+}
+.user-details-right img{
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+}
+.image{
+  margin-left: 30px;
+  height: 250px;
+  width: 500px;
+  background: url(https://i.pcmag.com/imagery/articles/01IB0rgNa4lGMBlmLyi0VP6-6..v1611346416.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.post h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 50px;
+  color: rgb(174, 174, 174);
+}
+ .header{
+  height: 400px;
+  max-width: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ }
+ .header h6{
+  text-decoration:none ;
+  color: black;
+  cursor: pointer;
+ }
+
+.chat{
+  display: flex;
+  height: 40px;
+  width: 180px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(51, 51, 255);
+  margin-left: 360px;
+  margin-top: 50px;
+}
+.chat button{
+  background: transparent;
+  border: none;
+  width: 180px;
+  color: white;
+  
+
+}
